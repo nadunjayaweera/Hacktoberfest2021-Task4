@@ -1,5 +1,6 @@
 #include <studio.h>
-
+// defining header class for bool. 
+#include <stdbool.h> 
 
 int main()
 {
