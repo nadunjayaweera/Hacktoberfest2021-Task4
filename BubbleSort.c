@@ -10,13 +10,17 @@ int main()
     
     do{
         swap=false;
+        // Defining temp array;
+        int temp[5];
         for(j=0;j<n;j++)
         {
-            if (arr[j]>arr[j-1]);
+            // remove ;
+            if (arr[j]>arr[j-1])
             {
                 temp=arr[j];
                 arr[j]=arr[j+1];
-                arr[j+1]=temp
+                // Adding ;
+                arr[j+1]=temp;
                 swap=false;
             }
         }
